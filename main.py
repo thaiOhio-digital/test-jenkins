@@ -38,7 +38,7 @@ def generateToken():
         API_SEC,
         algorithm='HS256'
     )
-    print(token, 321)
+    print(token, 321123)
     return token.decode('utf-8')
 
 @app.get("/user")
