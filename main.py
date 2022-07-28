@@ -39,7 +39,7 @@ def generateToken():
         algorithm='HS256'
     )
     print(token)
-    print("can you clone automatically?")
+    print("can you clone repo automatically?")
     return token.decode('utf-8')
 
 @app.get("/user")
