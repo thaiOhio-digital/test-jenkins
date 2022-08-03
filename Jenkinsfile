@@ -4,7 +4,7 @@ pipeline {
         stage('Clone') {
             steps {
                 git 'https://github.com/thaiOhio-digital/test-jenkins.git'
-                echo 'so close'
+                echo 'so closessssss'
             }
         }
     }
