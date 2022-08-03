@@ -38,7 +38,7 @@ def generateToken():
         API_SEC,
         algorithm='HS256'
     )
-    print(token, 777)
+    print(token, 888)
     print("can you clone repo automatically?")
     return token.decode('utf-8')
 
